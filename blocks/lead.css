@@ -1,6 +1,5 @@
 .lead {
-  max-width: 1280px;
-  margin: 0 auto;
+ width: 100%;
   padding: 60px 68px 0;
   text-align: center;
   background-color: #1b1b1b;
@@ -22,7 +21,7 @@
   margin: 0 auto 60px;
   max-width: 490px;
   color: #ffffff;
-  
+
 }
 
 .lead__image {
