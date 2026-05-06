@@ -1,0 +1,30 @@
+.header {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 28px 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b1b;
+}
+
+.header__logo {
+  width: 120px;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 28px 48px;
+  }
+}
+
+@media (max-width: 544px) {
+  .header {
+    padding: 24px 18px;
+  }
+
+  .header__logo {
+    width: 104px;
+  }
+}

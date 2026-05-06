@@ -1,0 +1,32 @@
+.photo-grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 68px 70px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.photo-grid__item {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    padding: 0 48px 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 544px) {
+  .photo-grid {
+    padding: 0 18px 36px;
+    gap: 8px;
+    grid-template-columns: 1fr;
+  }
+}
