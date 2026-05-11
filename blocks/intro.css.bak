@@ -1,0 +1,11 @@
+,intro{
+ max-width: 1280px;
+ margin:0 auto;
+ padding: 70px 68px;
+ background-color: #ffffff;
+ display grid;
+ grid-columns: 1fr 1fr;
+ grid-template-rows: auto auto;
+ column-gap: 56px;
+ row-gap: 32px;
+]
