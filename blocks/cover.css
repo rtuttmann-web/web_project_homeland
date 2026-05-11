@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url("../images/cover.png");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
 }
