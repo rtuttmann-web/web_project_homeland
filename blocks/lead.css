@@ -6,6 +6,7 @@
 }
 
 .lead__title {
+  font-family: 'Inter', sans-serif;
   font-size: 96px;
   font-weight: 800;
   line-height: 1.15;
@@ -15,6 +16,7 @@
 }
 
 .lead__subtitle {
+  font-family: 'Inter', sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 1.5;
@@ -25,16 +27,22 @@
 }
 
 .lead__image {
-  width: 100%;
+  max-width: 100%;
   max-width: 984px;
   margin: 0 auto;
   display: block;
   object-fit: cover;
 }
 
+.lead__content {
+  max-width: 984px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 @media (max-width: 1024px) {
   .lead {
-    padding: 40px 48px 0;
+    padding: 40px 24px 0;
   }
 
   .lead__title {
@@ -50,7 +58,7 @@
 
 @media (max-width: 544px) {
   .lead {
-    padding: 36px 18px 0;
+    padding: 50px 16px 0;
   }
 
   .lead__title {
